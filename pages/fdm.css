@@ -1,77 +1,40 @@
-.hero-background-video {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  object-fit: cover;
-  top: 0%;
-  right: 0%;
-}
-
-body {
-  height: 500vh;
-  line-height: 34px;
-}
-
-h1 {
-  color: white;
-}
-main p {
-  font-size: 150%;
-}
-
-/* ---------------------------------------------------- */
-
-.rotate {
-  background-color: rgba(95, 158, 160, 0.322);
-  border-radius: 50%;
-}
 .zone-video {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
-@keyframes rotate {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
+.principal-2 {
+  height: auto;
+  padding: 5% 10%;
+  min-height: 350vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 5rem;
 }
-
-.bambu {
-  height: 60vh;
-  object-fit: cover;
-  border-radius: 20px;
-  box-shadow: black 15px 10px 10px;
-}
-
 .intro-fdm {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 5%;
-  width: 60vw;
-  height: 110vh;
+  max-width: 60vw;
+  height: auto;
   background: linear-gradient(45deg, #9198e5, #eb8c8c);
   border-radius: 20px;
   box-shadow: black 10px 10px 10px;
-  gap: 30px;
+  gap: 5rem;
 }
-
-.principal-2 {
-  position: relative;
-  top: 55vh;
-  padding: 5% 10%;
-  height: 350vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.bambu {
+  max-height: 60vh;
+  width: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: black 15px 10px 10px;
 }
 
 .liens:hover {
@@ -105,11 +68,6 @@ main p {
 .legende {
   text-align: center;
   padding-top: 5%;
-}
-.footer-fdm {
-  position: relative;
-  top: 50vh;
-  padding: 10% 0 0 10%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {

@@ -2,13 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: cursive;
 }
 html {
   scroll-behavior: smooth;
 }
 body {
   background: linear-gradient(45deg, #e66465, #9198e5);
-  height: 390vh;
+  height: auto;
   font-family: Tahoma, sans-serif;
   line-height: 34px;
 }
@@ -26,8 +27,13 @@ h2 {
 h3 {
   font-size: 200%;
 }
-
+main p {
+  font-size: 150%;
+}
 .header {
+  position: absolute;
+  z-index: 10;
+  width: 100vw;
   padding: 2% 5%;
   display: flex;
   flex-direction: row;
@@ -47,13 +53,10 @@ header img {
   border-radius: 50%;
 }
 .hero-background-video {
-  position: absolute;
   width: 100vw;
-  height: 100vh;
-  z-index: -1;
+  height: auto;
   object-fit: cover;
-  top: 0%;
-  right: 0%;
+  display: block;
 }
 .liens:hover {
   transform: rotate(0deg);
@@ -62,18 +65,35 @@ header img {
   will-change: transform;
   transform: scale(1.2);
 }
-
+.auto {
+  color: black;
+  text-align: right;
+  margin-left: 70vw;
+}
+.btn-haut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #9198e5, #eb8c8c);
+  color: black;
+  font-size: 48px;
+  text-decoration: none;
+  border: 2px solid black;
+}
 .principal-1 {
-  position: relative;
-  top: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
   padding: 5% 10%;
-  text-align: center;
-  height: 235vh;
   line-height: 150%;
+  gap: 5rem;
 }
-section {
-  padding: 10% 0 0 0;
-}
+
 .descriptif {
   padding: 2% 6%;
   text-align: justify;
@@ -102,12 +122,13 @@ section {
   align-items: center;
 }
 .impression_fdm {
-  position: relative;
-  top: 5%;
+  /* position: relative;
+  top: 5%; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-block: 5rem;
 }
 .imprimante_fdm {
   height: 60vh;
@@ -130,8 +151,8 @@ section {
   height: 75px;
 }
 .impression_sla {
-  position: relative;
-  top: 5%;
+  /* position: relative;
+  top: 5%; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -143,10 +164,10 @@ section {
   border-radius: 20px;
   box-shadow: black 15px 10px 10px;
 }
-.footer-accueil {
-  position: relative;
-  top: 50vh;
-  padding: 10% 0 0 10%;
+.footer {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: 10%;
 }
 
 @keyframes rotate {
@@ -164,7 +185,7 @@ section {
     height: 760vh;
   }
   h1 {
-    font-size: 250%;
+    font-size: 200%;
   }
   h3 {
     font-size: 200%;
