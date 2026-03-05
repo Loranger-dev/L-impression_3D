@@ -6,27 +6,23 @@ tags:
 
 # README — Projet Solo
 
-> ⚠️ Ce document est **à compléter entièrement**.
->
-> Supprimez les indications entre crochets `[...]` et remplacez-les par vos informations.
-
 ---
 
 ## 1. Informations générales
 
 - **Par Laurent Gardin**
 
-- **Théme : L' impression 3d**
+- **Thème : l'impression 3d**
 
-- **Présentation des 2 principales technologies grand publique**
+- **Présentation des 2 principales technologies grand public**
 
-- **Publique cible : 7 à 77 ans**
+- **Public cible : 7 à 77 ans**
 
 ---
 
 ## 2. Présentation du projet
 
-Site de présentation des principales technologies/machines d'impression 3d accessibles au grand public de nos jours.
+Site de présentation des principales technologies/machines d'impression 3D accessibles au grand public de nos jours.
 
 ---
 
@@ -46,20 +42,20 @@ Page principale du site :
 
 ### Page 2 : Impression FDM (`fdm.html`)
 
-Page dédié à l'impression FDM :
+Page dédiée à l'impression FDM :
 
 - bannière vidéo pleine page montrant une imprimante FDM ouverte,
-- trois sections (deux cards l'une au dessus de l'autre puis 3 images cote à cote) présentant une imprimante FDM 'ouverte', imprimante FDM en caisson et 3 types de filaments.
+- trois sections (deux cards l'une au dessus de l'autre puis trois images côte à côte) présentant une imprimante FDM 'ouverte', imprimante FDM en caisson et trois types de filaments.
 
 ---
 
 ### Page 3 : Impression SLA (`sla.html`)
 
-Page dédié à l'impression SLA :
+Page dédiée à l'impression SLA :
 
 - bannière vidéo pleine page montrant une imprimante SLA,
 - explications sur son fonctionnement,
-- trois sections ( trois cards horizontales les unes sous les autres avec une ligne 'chronologique' sur toutes la hauteur) présentant le fonctionnement de l'impression SLA, le post-traitement necessaire et l'étape des ultraviolets.
+- trois sections (trois cards horizontales les unes sous les autres avec une ligne 'chronologique' sur toute la hauteur) présentant le fonctionnement de l'impression SLA, le post-traitement nécessaire et l'étape de polymérisation aux ultraviolets.
 
 ---
 
@@ -74,7 +70,7 @@ Difficultés de mise en page lors du passage en mode mobile.
 
 - L'aspect visuel très épuré,
 - cohérence des couleurs,
-- médias présentés
+- médias présentés.
 
 ---
 
@@ -86,20 +82,20 @@ Difficultés de mise en page lors du passage en mode mobile.
 
 - **Rigueur :** 7/10
 
-  Code structuré, difficultés à trouver des noms de classes évoquateur, responsible.
+  Code structuré, difficultés à trouver des noms de classes explicites et cohérents.
 
 - **Compréhension du projet :** 8/10
 
-  Parties desktop et structures des fichiers respectés
+  Parties desktop et structure des fichiers respectées
 
 ---
 
 # Validation
 
-- [ ] Sujet validé
-- [ ] Maquettes validées
+- [x] Sujet validé
+- [x] Maquettes validées
 - [ ] Challenge intégré
 - [ ] Responsive fonctionnel
 - [ ] SEO complet
-- [ ] Accessibilité vérifiée
-- [ ] README complété
+- [x] Accessibilité vérifiée
+- [x] README complété
